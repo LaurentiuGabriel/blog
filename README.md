@@ -32,6 +32,10 @@ date: 2026-08-09
 Your words go here.
 ```
 
+Screenshots go in `images/` and must be referenced **root-relative** —
+`![Alt text](/images/screenshot.png)`. A bare `![](screenshot.png)` resolves
+against the post's own `/articles/<slug>/` URL and 404s.
+
 Pages that are *not* posts (about, article index, contact) opt out with
 `eleventyExcludeFromCollections: true` and set their own `permalink`. Note that
 `tags: []` does **not** work here — Eleventy merges tag arrays down the data
@@ -67,5 +71,6 @@ eleventy.config.mjs      build config, filters, posts collection
 _data/site.json          site title, nav, social links
 _includes/layouts/       base / page / post templates
 css/style.css            the entire theme
+images/                  screenshots and other post images
 pages/                   all content
 ```

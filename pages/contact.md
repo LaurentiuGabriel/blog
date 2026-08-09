@@ -3,8 +3,8 @@ permalink: /contact/
 layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 title: Contact
-tagline: Happy to talk about AI agents, options analytics, testing at scale — or a good idea that needs building.
-description: Get in touch with Laurentiu Raducu.
+tagline: Happy to talk about AI agents, options analytics, testing at scale.
+description: Get in touch with me.
 ---
 
 The fastest way to reach me is email. I read everything, and I reply to most of it.
@@ -25,6 +25,3 @@ The fastest way to reach me is email. I read everything, and I reply to most of 
     </a>
   </li>
 </ul>
-
-I'm based in **Zürich, Switzerland**, which is CET/CEST — so if you're writing from
-another timezone, give me a day.

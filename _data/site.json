@@ -4,7 +4,7 @@
   "description": "Notes on software engineering, AI, and systematic trading by Laurentiu Raducu.",
   "url": "https://laurentiugabriel.github.io/blog",
   "author": "Laurentiu Raducu",
-  "email": "laurentiu@bitheap.tech",
+  "email": "laurentiu@raducu.com",
   "nav": [
     { "text": "About", "url": "/" },
     { "text": "Articles", "url": "/articles/" },
