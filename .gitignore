@@ -1,0 +1,11 @@
+node_modules/
+_site/
+.cache/
+.DS_Store
+*.log
+
+# Local drafts, not published
+btc.md
+modern-stack.md
+modern-stack copy.md
+template.html

@@ -1,0 +1,20 @@
+{
+  "title": "Laurentiu Raducu",
+  "tagline": "Software engineer, founder, AI builder.",
+  "description": "Notes on software engineering, AI, and systematic trading by Laurentiu Raducu.",
+  "url": "https://laurentiugabriel.github.io/blog",
+  "author": "Laurentiu Raducu",
+  "email": "laurentiu@bitheap.tech",
+  "nav": [
+    { "text": "About", "url": "/" },
+    { "text": "Articles", "url": "/articles/" },
+    { "text": "Contact", "url": "/contact/" }
+  ],
+  "socials": [
+    { "text": "GitHub", "url": "https://github.com/LaurentiuGabriel" },
+    { "text": "LinkedIn", "url": "https://www.linkedin.com/in/laurentiur" },
+    { "text": "X", "url": "https://x.com/Bitheap_tech" },
+    { "text": "Medium", "url": "https://laurentiu-raducu.medium.com" },
+    { "text": "YouTube", "url": "https://www.youtube.com/@bitheap-tech" }
+  ]
+}

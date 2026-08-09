@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A minimalist static blog powered by Eleventy & Markdown.",
+  "author": "Laurentiu Raducu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "node -e \"require('fs').rmSync('_site',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
