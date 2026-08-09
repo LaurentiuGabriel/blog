@@ -41,20 +41,24 @@ cascade, so the directory tag would survive.
 
 ```bash
 npm install
-npm run dev     # http://localhost:8080 with live reload
+npm run dev     # http://localhost:8080/blog/ with live reload
 npm run build   # static output in _site/
 ```
 
 ## Deployment
 
 `.github/workflows/deploy.yml` builds the site and publishes it to GitHub Pages on
-every push to `main`. The workflow enables Pages itself on first run; if it fails
-with a "Pages not enabled" error, set **Settings → Pages → Source** to
-**GitHub Actions** once, then re-run it.
+every push to `main`.
 
-Because this is a project site served under `/blog/`, the build passes a
-`--pathprefix` and Eleventy's `HtmlBasePlugin` rewrites every root-relative URL to
-match.
+**One-time setup:** GitHub Pages must be turned on before the first deploy can
+succeed — `GITHUB_TOKEN` cannot create a Pages site itself. Go to
+**Settings → Pages → Build and deployment → Source** and pick **GitHub Actions**,
+then re-run the workflow.
+
+Because this is a project site served under `/blog/`, `eleventy.config.mjs` sets
+`pathPrefix: "/blog/"` and Eleventy's `HtmlBasePlugin` rewrites every root-relative
+URL to match. The dev server mirrors this, which is why it serves at `/blog/`
+locally too. If the repo is ever renamed, change `pathPrefix` to match.
 
 ## Structure
 
