@@ -18,10 +18,11 @@ ship the ideas for small and medium organizations.
 
 ## What I'm working on
 
-- **GPT Trading Agent** — an LLM-driven agent that researches and executes trades.
-- **GreekFlow** — options analytics: Greeks, flow and volatility surfaces.
-- **ChipTycoon** and **TokenTown** — games, because not everything needs a business case.
-- **EUV lithography simulator** and **EngineWorks** — simulation side quests.
+- **[GPT Trading Agent](https://aivestor.tech)** — an LLM-driven agent that researches and executes trades.
+- **[GreekFlow](https://github.com/LaurentiuGabriel/greek-alpaca)** — options analytics: Greeks, flow and volatility surfaces.
+- **[Select Supply](https://select.supply)** — clothes, cars, games and other objects that I love.
+- **[Dave](https://dave-bot.com)** — a one-stop shop for everything AI-related.
+- **[QuantiQ](https://quantiq.live)** — real-time market, historical and financial data.
 
 ## The toolbox
 
