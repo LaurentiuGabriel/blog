@@ -3,7 +3,7 @@ permalink: /articles/
 layout: layouts/page.njk
 eleventyExcludeFromCollections: true
 title: Articles
-tagline: Notes on engineering, AI, markets — and whatever I happen to be building.
+tagline: Notes on engineering, AI, markets and whatever I happen to be building.
 description: All articles by Laurentiu Raducu.
 ---
 
