@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>                  
+    <title>Laurentiu Raducu's Blog</title>
+    <description>A blog about everything.</description>
+    <link>https://laurentiugabriel.github.io/blog/</link>
+    <atom:link href="https://laurentiugabriel.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>             
+        <title>How I use LLMs to learn complex topics</title>
+        <link>https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</link>
+        <guid>https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</guid>
+        <pubDate>Sun, 9 Aug 2026 00:00:00 CST</pubDate> 
+    </item>
+
+</channel>
+</rss>

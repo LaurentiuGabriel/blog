@@ -22,6 +22,7 @@ ship the ideas for small and medium organizations.
 - **[GreekFlow](https://github.com/LaurentiuGabriel/greek-alpaca)** — options analytics: Greeks, flow and volatility surfaces.
 - **[Select Supply](https://select.supply)** — clothes, cars, games and other objects that I love.
 - **[Dave](https://dave-bot.com)** — a one-stop shop for everything AI-related.
+- **[Headsnap](https://headsnap.io)** — The best headshot and image generator (exited).
 - **[QuantiQ](https://quantiq.live)** — real-time market, historical and financial data.
 
 ## The toolbox
