@@ -39,3 +39,5 @@ Check out what other pages I created:
 - [How LLMs work](https://laurentiugabriel.github.io/token-town/)
 - [How F1 engines are built](https://laurentiugabriel.github.io/engineworks/)
 - [How an EUV machine is built](https://laurentiugabriel.github.io/euv-lithography/)
+
+After reading the feedback on the HN post, I decided to create [an awesome Skill.MD file for creating cool animations to learn complex topics](https://github.com/LaurentiuGabriel/learnscape).
