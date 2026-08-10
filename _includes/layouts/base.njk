@@ -12,6 +12,12 @@
     <meta property="og:type" content="website" />
     <link rel="stylesheet" href="/css/style.css" />
     <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.title }}"
+      href="/feed.xml"
+    />
+    <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰</text></svg>"
     />
@@ -42,6 +48,13 @@
           {% for item in site.nav %}
             <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
           {% endfor %}
+          <a class="rss-link" href="/feed.xml" aria-label="RSS feed">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="5" cy="19" r="1.6" fill="currentColor" stroke="none" />
+              <path d="M4 11a9 9 0 0 1 9 9" />
+              <path d="M4 4a16 16 0 0 1 16 16" />
+            </svg>
+          </a>
           <button
             id="theme-toggle"
             class="theme-toggle"

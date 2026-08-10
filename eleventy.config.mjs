@@ -14,6 +14,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addWatchTarget("images");
 
+  eleventyConfig.addPassthroughCopy("feed.xml");
+
   // Images below the fold shouldn't block first paint.
   eleventyConfig.amendLibrary("md", (md) => {
     const renderImage = md.renderer.rules.image;
