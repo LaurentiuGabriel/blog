@@ -41,3 +41,5 @@ Check out what other pages I created:
 - [How an EUV machine is built](https://laurentiugabriel.github.io/euv-lithography/)
 
 After reading the feedback on the HN post, I decided to create [an awesome Skill.MD file for creating cool animations to learn complex topics](https://github.com/LaurentiuGabriel/learnscape).
+
+I also launched <a href="https://learnscape.academy">Learnscape</a>, where you choose a topic that you want to learn and get a full course with videos, explorable worlds, diagrams and any animations that enables you to learn the topic faster.
